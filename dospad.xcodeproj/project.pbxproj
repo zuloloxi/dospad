@@ -368,7 +368,6 @@
 		E71E62E511B550FD00EC5A05 /* shell_cmds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E71E61F611B550FD00EC5A05 /* shell_cmds.cpp */; };
 		E71E62E611B550FD00EC5A05 /* shell_misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E71E61F711B550FD00EC5A05 /* shell_misc.cpp */; };
 		E71E636D11B5659F00EC5A05 /* libdosbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E71E60EB11B5506800EC5A05 /* libdosbox.a */; };
-		E723F0C61286A1680009E3DA /* VKView.m in Sources */ = {isa = PBXBuildFile; fileRef = E723F0C51286A1680009E3DA /* VKView.m */; };
 		E729BDFC129B506E002B05B2 /* cpuwindow~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E729BDF0129B506E002B05B2 /* cpuwindow~ipad.png */; };
 		E729BDFD129B506E002B05B2 /* exitfull~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E729BDF1129B506E002B05B2 /* exitfull~ipad.png */; };
 		E729BDFE129B506E002B05B2 /* modejoy~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E729BDF2129B506E002B05B2 /* modejoy~ipad.png */; };
@@ -412,24 +411,12 @@
 		E72BE6DA12911B5C009DC46A /* FileSystemObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6C812911B5C009DC46A /* FileSystemObject.m */; };
 		E72BE6DB12911B5C009DC46A /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6CA12911B5C009DC46A /* KeyboardView.m */; };
 		E72BE6DC12911B5C009DC46A /* KeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6CC12911B5C009DC46A /* KeyView.m */; };
-		E72BE6DD12911B5C009DC46A /* OptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6CE12911B5C009DC46A /* OptionViewController.m */; };
-		E72BE6DE12911B5C009DC46A /* OptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E72BE6CF12911B5C009DC46A /* OptionViewController.xib */; };
-		E72BE6DF12911B5C009DC46A /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6D112911B5C009DC46A /* TextViewController.m */; };
-		E72BE6E012911B5C009DC46A /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E72BE6D212911B5C009DC46A /* TextViewController.xib */; };
-		E72BE6E112911B5C009DC46A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6D412911B5C009DC46A /* WebViewController.m */; };
-		E72BE6E212911B5C009DC46A /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E72BE6D512911B5C009DC46A /* WebViewController.xib */; };
 		E72BE6E312911B5C009DC46A /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6D712911B5C009DC46A /* ZipArchive.m */; };
 		E72BE6E412911B5C009DC46A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6C412911B5C009DC46A /* AppDelegate.m */; };
 		E72BE6E512911B5C009DC46A /* DosEmuThread.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6C612911B5C009DC46A /* DosEmuThread.m */; };
 		E72BE6E612911B5C009DC46A /* FileSystemObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6C812911B5C009DC46A /* FileSystemObject.m */; };
 		E72BE6E712911B5C009DC46A /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6CA12911B5C009DC46A /* KeyboardView.m */; };
 		E72BE6E812911B5C009DC46A /* KeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6CC12911B5C009DC46A /* KeyView.m */; };
-		E72BE6E912911B5C009DC46A /* OptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6CE12911B5C009DC46A /* OptionViewController.m */; };
-		E72BE6EA12911B5C009DC46A /* OptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E72BE6CF12911B5C009DC46A /* OptionViewController.xib */; };
-		E72BE6EB12911B5C009DC46A /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6D112911B5C009DC46A /* TextViewController.m */; };
-		E72BE6EC12911B5C009DC46A /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E72BE6D212911B5C009DC46A /* TextViewController.xib */; };
-		E72BE6ED12911B5C009DC46A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6D412911B5C009DC46A /* WebViewController.m */; };
-		E72BE6EE12911B5C009DC46A /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E72BE6D512911B5C009DC46A /* WebViewController.xib */; };
 		E72BE6EF12911B5C009DC46A /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = E72BE6D712911B5C009DC46A /* ZipArchive.m */; };
 		E72BE72C12911E2B009DC46A /* bar-portrait-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E72BE71612911E2B009DC46A /* bar-portrait-iphone.png */; };
 		E72BE72D12911E2B009DC46A /* bar-portrait-iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E72BE71712911E2B009DC46A /* bar-portrait-iphone@2x.png */; };
@@ -499,9 +486,13 @@
 		E75276F012A0A77E00278BA1 /* modekeyon.png in Resources */ = {isa = PBXBuildFile; fileRef = E75276E412A0A77E00278BA1 /* modekeyon.png */; };
 		E75276F112A0A77E00278BA1 /* modekeyon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E75276E512A0A77E00278BA1 /* modekeyon@2x.png */; };
 		E75276F212A0A77E00278BA1 /* modekeyon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E75276E612A0A77E00278BA1 /* modekeyon~ipad.png */; };
+		E7685A8A1BB76C8200FAC866 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E7685A891BB76C8200FAC866 /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
+		E7685A8B1BB76C8200FAC866 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E7685A891BB76C8200FAC866 /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
 		E76C49381299490200901B69 /* FloatPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = E76C49371299490200901B69 /* FloatPanel.m */; };
 		E76C49391299490300901B69 /* FloatPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = E76C49371299490200901B69 /* FloatPanel.m */; };
 		E76DAEAF123EE08B00C2AEF7 /* FrameskipIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E76DAEAE123EE08B00C2AEF7 /* FrameskipIndicator.m */; };
+		E76DFD851BC36FE200930FFE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76DFD841BC36FE200930FFE /* SystemConfiguration.framework */; };
+		E76DFD861BC36FEC00930FFE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76DFD841BC36FE200930FFE /* SystemConfiguration.framework */; };
 		E770957E1297BA4C0040ADA2 /* ipadleftside.png in Resources */ = {isa = PBXBuildFile; fileRef = E770957C1297BA4B0040ADA2 /* ipadleftside.png */; };
 		E770957F1297BA4C0040ADA2 /* ipadrightside.png in Resources */ = {isa = PBXBuildFile; fileRef = E770957D1297BA4C0040ADA2 /* ipadrightside.png */; };
 		E77095801297BA4C0040ADA2 /* ipadleftside.png in Resources */ = {isa = PBXBuildFile; fileRef = E770957C1297BA4B0040ADA2 /* ipadleftside.png */; };
@@ -540,7 +531,6 @@
 		E77DB05C11B5E17500B78E69 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E77DB05B11B5E17500B78E69 /* libstdc++.dylib */; };
 		E78F5D0F11EF615300E2A70F /* diskc in Resources */ = {isa = PBXBuildFile; fileRef = E78F5B2511EF615200E2A70F /* diskc */; };
 		E793705312A1F3CA008A2012 /* idos-splash.gif in Resources */ = {isa = PBXBuildFile; fileRef = E793705212A1F3CA008A2012 /* idos-splash.gif */; };
-		E793720512A243C6008A2012 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E793720412A243C6008A2012 /* SplashViewController.m */; };
 		E794F3DD12DB4B6D00427836 /* modepianopressed.png in Resources */ = {isa = PBXBuildFile; fileRef = E794F3DA12DB4B6D00427836 /* modepianopressed.png */; };
 		E794F3DE12DB4B6D00427836 /* modepianopressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E794F3DB12DB4B6D00427836 /* modepianopressed@2x.png */; };
 		E794F3DF12DB4B6D00427836 /* modepianopressed~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E794F3DC12DB4B6D00427836 /* modepianopressed~ipad.png */; };
@@ -555,7 +545,6 @@
 		E7996FB81241DA8800502015 /* dpicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7996FB51241DA8800502015 /* dpicon@2x.png */; };
 		E7996FB91241DA8800502015 /* dpicon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E7996FB61241DA8800502015 /* dpicon~ipad.png */; };
 		E79970261241FE4A00502015 /* CommandListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E79970251241FE4A00502015 /* CommandListView.m */; };
-		E799702B12421D9F00502015 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E799702A12421D9F00502015 /* ModalViewController.m */; };
 		E799706412422D6800502015 /* FloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E799706312422D6800502015 /* FloatingView.m */; };
 		E79C2E5711E131DB002FE898 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E79C2E5611E131DB002FE898 /* MainWindow.xib */; };
 		E79E448A11EC28DD00DEAA7B /* SDL_uikitopenglview.m in Sources */ = {isa = PBXBuildFile; fileRef = FD689F170E26E5D900F90B21 /* SDL_uikitopenglview.m */; };
@@ -593,11 +582,9 @@
 		E7BE12F8128BF31A0046990B /* KeyLockIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E775412012403C3C009EC11A /* KeyLockIndicator.m */; };
 		E7BE12F9128BF31A0046990B /* TipView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7996FAC1241C0A800502015 /* TipView.m */; };
 		E7BE12FA128BF31A0046990B /* CommandListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E79970251241FE4A00502015 /* CommandListView.m */; };
-		E7BE12FB128BF31A0046990B /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E799702A12421D9F00502015 /* ModalViewController.m */; };
 		E7BE12FC128BF31A0046990B /* FloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E799706312422D6800502015 /* FloatingView.m */; };
 		E7BE12FD128BF31A0046990B /* SliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E70EA4111242F83200528C9D /* SliderView.m */; };
 		E7BE12FF128BF31A0046990B /* GamePadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A94CDC127D68B7006509E1 /* GamePadView.m */; };
-		E7BE1301128BF31A0046990B /* VKView.m in Sources */ = {isa = PBXBuildFile; fileRef = E723F0C51286A1680009E3DA /* VKView.m */; };
 		E7BE1305128BF31A0046990B /* libSDLiPhoneOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6526630DE8FCCB002AD96B /* libSDLiPhoneOS.a */; };
 		E7BE1306128BF31A0046990B /* libdosbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E71E60EB11B5506800EC5A05 /* libdosbox.a */; };
 		E7BE1307128BF31A0046990B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */; };
@@ -649,7 +636,6 @@
 		E7D78AC9129E98480020D4A7 /* firepressed.png in Resources */ = {isa = PBXBuildFile; fileRef = E7D78AC5129E98480020D4A7 /* firepressed.png */; };
 		E7D78AE5129E9E420020D4A7 /* GIFAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D78AE4129E9E420020D4A7 /* GIFAnimation.m */; };
 		E7D78AE6129E9E420020D4A7 /* GIFAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D78AE4129E9E420020D4A7 /* GIFAnimation.m */; };
-		E7DAFAC219C02E9400CCA934 /* UINavigationController-AutoRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DAFAC119C02E9400CCA934 /* UINavigationController-AutoRotate.m */; };
 		E7E877D61A247AC500997085 /* ConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E877D51A247AC500997085 /* ConfigManager.m */; };
 		E7E877D71A247AC500997085 /* ConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E877D51A247AC500997085 /* ConfigManager.m */; };
 		E7E877E71A24AFB300997085 /* Icon-iPad-29.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E877DB1A24AFB300997085 /* Icon-iPad-29.png */; };
@@ -676,10 +662,6 @@
 		E7E877FC1A24AFB300997085 /* Icon-iPhone-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E877E51A24AFB300997085 /* Icon-iPhone-40@3x.png */; };
 		E7E877FD1A24AFB300997085 /* Icon-iPhone-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E877E61A24AFB300997085 /* Icon-iPhone-60@3x.png */; };
 		E7E877FE1A24AFB300997085 /* Icon-iPhone-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E877E61A24AFB300997085 /* Icon-iPhone-60@3x.png */; };
-		E7E878051A24BDAE00997085 /* ConfigsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E878041A24BDAE00997085 /* ConfigsViewController.m */; };
-		E7E878061A24BDAE00997085 /* ConfigsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E878041A24BDAE00997085 /* ConfigsViewController.m */; };
-		E7E878091A24BDEC00997085 /* ConfigFileListController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E878081A24BDEC00997085 /* ConfigFileListController.m */; };
-		E7E8780A1A24BDEC00997085 /* ConfigFileListController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E878081A24BDEC00997085 /* ConfigFileListController.m */; };
 		E7EB354812A7C4320091D718 /* exitfull@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EB354712A7C4320091D718 /* exitfull@2x.png */; };
 		E7EB354912A7C4320091D718 /* exitfull@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EB354712A7C4320091D718 /* exitfull@2x.png */; };
 		E7EF4372128FCE470014D060 /* AlertPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = E73A211F128EC1F5001FA168 /* AlertPrompt.m */; };
@@ -1243,15 +1225,6 @@
 		E72BE6CA12911B5C009DC46A /* KeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardView.m; sourceTree = "<group>"; };
 		E72BE6CB12911B5C009DC46A /* KeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyView.h; sourceTree = "<group>"; };
 		E72BE6CC12911B5C009DC46A /* KeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyView.m; sourceTree = "<group>"; };
-		E72BE6CD12911B5C009DC46A /* OptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionViewController.h; sourceTree = "<group>"; };
-		E72BE6CE12911B5C009DC46A /* OptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionViewController.m; sourceTree = "<group>"; };
-		E72BE6CF12911B5C009DC46A /* OptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionViewController.xib; sourceTree = "<group>"; };
-		E72BE6D012911B5C009DC46A /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
-		E72BE6D112911B5C009DC46A /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
-		E72BE6D212911B5C009DC46A /* TextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
-		E72BE6D312911B5C009DC46A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		E72BE6D412911B5C009DC46A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		E72BE6D512911B5C009DC46A /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		E72BE6D612911B5C009DC46A /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
 		E72BE6D712911B5C009DC46A /* ZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipArchive.m; sourceTree = "<group>"; };
 		E72BE71612911E2B009DC46A /* bar-portrait-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar-portrait-iphone.png"; path = "dospad/misc-res/bar-portrait-iphone.png"; sourceTree = "<group>"; };
@@ -1301,10 +1274,13 @@
 		E75276E612A0A77E00278BA1 /* modekeyon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "modekeyon~ipad.png"; sourceTree = "<group>"; };
 		E752775A12A0C48700278BA1 /* shortlandkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shortlandkey.png; path = "dospad/misc-res/shortlandkey.png"; sourceTree = "<group>"; };
 		E752775B12A0C48700278BA1 /* shortlandkey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shortlandkey@2x.png"; path = "dospad/misc-res/shortlandkey@2x.png"; sourceTree = "<group>"; };
+		E75C2A2A1BDF27AA00CCC770 /* iDOS-Beta-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iDOS-Beta-Info.plist"; sourceTree = "<group>"; };
+		E7685A891BB76C8200FAC866 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = dospad/Settings.bundle; sourceTree = "<group>"; };
 		E76C49361299490200901B69 /* FloatPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatPanel.h; sourceTree = "<group>"; };
 		E76C49371299490200901B69 /* FloatPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatPanel.m; sourceTree = "<group>"; };
 		E76DAEAD123EE08B00C2AEF7 /* FrameskipIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameskipIndicator.h; sourceTree = "<group>"; };
 		E76DAEAE123EE08B00C2AEF7 /* FrameskipIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameskipIndicator.m; sourceTree = "<group>"; };
+		E76DFD841BC36FE200930FFE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E770957C1297BA4B0040ADA2 /* ipadleftside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ipadleftside.png; path = "dospad/gamepad-res/ipadleftside.png"; sourceTree = "<group>"; };
 		E770957D1297BA4C0040ADA2 /* ipadrightside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ipadrightside.png; path = "dospad/gamepad-res/ipadrightside.png"; sourceTree = "<group>"; };
 		E770961F1297F5670040ADA2 /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = light.png; path = "dospad/gamepad-res/light.png"; sourceTree = "<group>"; };
@@ -1342,8 +1318,6 @@
 		E78F5B2511EF615200E2A70F /* diskc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = diskc; sourceTree = "<group>"; };
 		E792A4BA11E36C9C00894C71 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		E793705212A1F3CA008A2012 /* idos-splash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "idos-splash.gif"; path = "dospad/misc-res/idos-splash.gif"; sourceTree = "<group>"; };
-		E793720312A243C6008A2012 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
-		E793720412A243C6008A2012 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		E794F3DA12DB4B6D00427836 /* modepianopressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = modepianopressed.png; sourceTree = "<group>"; };
 		E794F3DB12DB4B6D00427836 /* modepianopressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "modepianopressed@2x.png"; sourceTree = "<group>"; };
 		E794F3DC12DB4B6D00427836 /* modepianopressed~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "modepianopressed~ipad.png"; sourceTree = "<group>"; };
@@ -1362,8 +1336,6 @@
 		E79970041241F09400502015 /* cmd_history.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmd_history.h; sourceTree = "<group>"; };
 		E79970241241FE4A00502015 /* CommandListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandListView.h; sourceTree = "<group>"; };
 		E79970251241FE4A00502015 /* CommandListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandListView.m; sourceTree = "<group>"; };
-		E799702912421D9F00502015 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
-		E799702A12421D9F00502015 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 		E799706212422D6800502015 /* FloatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingView.h; sourceTree = "<group>"; };
 		E799706312422D6800502015 /* FloatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatingView.m; sourceTree = "<group>"; };
 		E79C2E5611E131DB002FE898 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
@@ -1401,8 +1373,6 @@
 		E7D78AC5129E98480020D4A7 /* firepressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = firepressed.png; path = "dospad/gamepad-res/firepressed.png"; sourceTree = "<group>"; };
 		E7D78AE3129E9E420020D4A7 /* GIFAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFAnimation.h; sourceTree = "<group>"; };
 		E7D78AE4129E9E420020D4A7 /* GIFAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFAnimation.m; sourceTree = "<group>"; };
-		E7DAFAC019C02E9400CCA934 /* UINavigationController-AutoRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController-AutoRotate.h"; sourceTree = "<group>"; };
-		E7DAFAC119C02E9400CCA934 /* UINavigationController-AutoRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController-AutoRotate.m"; sourceTree = "<group>"; };
 		E7E877D41A247AC500997085 /* ConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigManager.h; sourceTree = "<group>"; };
 		E7E877D51A247AC500997085 /* ConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigManager.m; sourceTree = "<group>"; };
 		E7E877DB1A24AFB300997085 /* Icon-iPad-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad-29.png"; sourceTree = "<group>"; };
@@ -1417,10 +1387,6 @@
 		E7E877E41A24AFB300997085 /* Icon-iPhone-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPhone-40@2x.png"; sourceTree = "<group>"; };
 		E7E877E51A24AFB300997085 /* Icon-iPhone-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPhone-40@3x.png"; sourceTree = "<group>"; };
 		E7E877E61A24AFB300997085 /* Icon-iPhone-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPhone-60@3x.png"; sourceTree = "<group>"; };
-		E7E878031A24BDAE00997085 /* ConfigsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigsViewController.h; sourceTree = "<group>"; };
-		E7E878041A24BDAE00997085 /* ConfigsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigsViewController.m; sourceTree = "<group>"; };
-		E7E878071A24BDEC00997085 /* ConfigFileListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigFileListController.h; sourceTree = "<group>"; };
-		E7E878081A24BDEC00997085 /* ConfigFileListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigFileListController.m; sourceTree = "<group>"; };
 		E7EB354712A7C4320091D718 /* exitfull@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exitfull@2x.png"; sourceTree = "<group>"; };
 		E7F2A9CD12CD99EC0091B859 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		FD0BBFEF0E3933DD00D833B1 /* SDL_uikitview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_uikitview.h; sourceTree = "<group>"; };
@@ -1591,6 +1557,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76DFD861BC36FEC00930FFE /* SystemConfiguration.framework in Frameworks */,
 				E71E60E611B5503500EC5A05 /* libSDLiPhoneOS.a in Frameworks */,
 				E71E636D11B5659F00EC5A05 /* libdosbox.a in Frameworks */,
 				E77DB03E11B5E0F600B78E69 /* CoreGraphics.framework in Frameworks */,
@@ -1627,6 +1594,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76DFD851BC36FE200930FFE /* SystemConfiguration.framework in Frameworks */,
 				E7BE1305128BF31A0046990B /* libSDLiPhoneOS.a in Frameworks */,
 				E7BE1306128BF31A0046990B /* libdosbox.a in Frameworks */,
 				E7BE1307128BF31A0046990B /* CoreGraphics.framework in Frameworks */,
@@ -1715,26 +1683,12 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				E79E44F411EC2D5200DEAA7B /* Resources */,
-				E77DAFAF11B5D83600B78E69 /* dospad */,
-				E71E60F211B550FD00EC5A05 /* dosbox */,
-				FD99B8BC0DD52E5C00FB1D6B /* SDL Headers */,
-				FD99B8BD0DD52E6D00FB1D6B /* SDL Sources */,
-				E778B2BA12391963008AF49A /* SDL_net */,
-				E7D6B89C11BF325700D34665 /* minizip */,
 				E73B77D7127ED67300184D3B /* configs */,
 				E78F5B2511EF615200E2A70F /* diskc */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				E77DB04111B5E10700B78E69 /* libstdc++.6.0.9.dylib */,
-				E77DB04311B5E11100B78E69 /* QuartzCore.framework */,
-				E77DB04711B5E11900B78E69 /* OpenGLES.framework */,
-				E77DB05511B5E13600B78E69 /* MessageUI.framework */,
-				E77DB05B11B5E17500B78E69 /* libstdc++.dylib */,
-				E7D6B8CE11BF332400D34665 /* libz.dylib */,
-				E79E4A0011EC6BF400DEAA7B /* libc.dylib */,
-				E70C044012A4B43F00AC178F /* AVFoundation.framework */,
-				E7F2A9CD12CD99EC0091B859 /* CoreMIDI.framework */,
+				E79E44F411EC2D5200DEAA7B /* Resources */,
+				E76DFD5A1BC356BB00930FFE /* Sources */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -1742,10 +1696,20 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E76DFD841BC36FE200930FFE /* SystemConfiguration.framework */,
+				E79E4A0011EC6BF400DEAA7B /* libc.dylib */,
+				E7D6B8CE11BF332400D34665 /* libz.dylib */,
+				E77DB05B11B5E17500B78E69 /* libstdc++.dylib */,
+				E77DB04111B5E10700B78E69 /* libstdc++.6.0.9.dylib */,
+				E7F2A9CD12CD99EC0091B859 /* CoreMIDI.framework */,
 				FDB9E4CC0DEB84540027A75A /* AudioToolbox.framework */,
 				FDB9E40C0DEB81970027A75A /* CoreAudio.framework */,
 				FDB9E4060DEB81870027A75A /* AudioUnit.framework */,
 				FD99BCEF0DD532AE00FB1D6B /* OpenGLES.framework */,
+				E70C044012A4B43F00AC178F /* AVFoundation.framework */,
+				E77DB05511B5E13600B78E69 /* MessageUI.framework */,
+				E77DB04711B5E11900B78E69 /* OpenGLES.framework */,
+				E77DB04311B5E11100B78E69 /* QuartzCore.framework */,
 				1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
@@ -2308,28 +2272,17 @@
 			name = CustomView;
 			sourceTree = "<group>";
 		};
-		E750BE4C19BAE4EA001D5681 /* ViewControllers */ = {
+		E76DFD5A1BC356BB00930FFE /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E799702912421D9F00502015 /* ModalViewController.h */,
-				E799702A12421D9F00502015 /* ModalViewController.m */,
-				E793720312A243C6008A2012 /* SplashViewController.h */,
-				E793720412A243C6008A2012 /* SplashViewController.m */,
-				E715B3591293B7740098D437 /* DOSPadBaseViewController.h */,
-				E715B35A1293B7750098D437 /* DOSPadBaseViewController.m */,
-				E72BE6CD12911B5C009DC46A /* OptionViewController.h */,
-				E72BE6CE12911B5C009DC46A /* OptionViewController.m */,
-				E72BE6CF12911B5C009DC46A /* OptionViewController.xib */,
-				E72BE6D012911B5C009DC46A /* TextViewController.h */,
-				E72BE6D112911B5C009DC46A /* TextViewController.m */,
-				E72BE6D212911B5C009DC46A /* TextViewController.xib */,
-				E72BE6D312911B5C009DC46A /* WebViewController.h */,
-				E72BE6D412911B5C009DC46A /* WebViewController.m */,
-				E72BE6D512911B5C009DC46A /* WebViewController.xib */,
-				E7DAFAC019C02E9400CCA934 /* UINavigationController-AutoRotate.h */,
-				E7DAFAC119C02E9400CCA934 /* UINavigationController-AutoRotate.m */,
+				E71E60F211B550FD00EC5A05 /* dosbox */,
+				E77DAFAF11B5D83600B78E69 /* dospad */,
+				E7D6B89C11BF325700D34665 /* minizip */,
+				FD99B8BC0DD52E5C00FB1D6B /* SDL Headers */,
+				FD99B8BD0DD52E6D00FB1D6B /* SDL Sources */,
+				E778B2BA12391963008AF49A /* SDL_net */,
 			);
-			name = ViewControllers;
+			name = Sources;
 			sourceTree = "<group>";
 		};
 		E7734DDC128A71AF0009CBEA /* audio */ = {
@@ -2431,6 +2384,8 @@
 				E72BE6C512911B5C009DC46A /* DosEmuThread.h */,
 				E72BE6C612911B5C009DC46A /* DosEmuThread.m */,
 				E77DAFB311B5D83600B78E69 /* dospad_Prefix.pch */,
+				E715B3591293B7740098D437 /* DOSPadBaseViewController.h */,
+				E715B35A1293B7750098D437 /* DOSPadBaseViewController.m */,
 				E74BB2B415C93DBC005EC552 /* DosPadUIApplication.h */,
 				E74BB2B515C93DBC005EC552 /* DosPadUIApplication.m */,
 				E7D214C511E45BD000D9654E /* keys.h */,
@@ -2444,7 +2399,6 @@
 				E714BC5619C1EA3B009CF594 /* UIExtendedTextField.h */,
 				E714BC5719C1EA3B009CF594 /* UIExtendedTextField.m */,
 				E750BE4A19BAE441001D5681 /* Util */,
-				E750BE4C19BAE4EA001D5681 /* ViewControllers */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -2471,6 +2425,8 @@
 				E73A766F12504B73000E1743 /* credits.html */,
 				E71E60E211B5502800EC5A05 /* dospad-Info.plist */,
 				E7BE1318128BF31A0046990B /* iDOS-Info.plist */,
+				E75C2A2A1BDF27AA00CCC770 /* iDOS-Beta-Info.plist */,
+				E7685A891BB76C8200FAC866 /* Settings.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -2524,10 +2480,6 @@
 			children = (
 				E7E877D41A247AC500997085 /* ConfigManager.h */,
 				E7E877D51A247AC500997085 /* ConfigManager.m */,
-				E7E878031A24BDAE00997085 /* ConfigsViewController.h */,
-				E7E878041A24BDAE00997085 /* ConfigsViewController.m */,
-				E7E878071A24BDEC00997085 /* ConfigFileListController.h */,
-				E7E878081A24BDEC00997085 /* ConfigFileListController.m */,
 			);
 			name = Configs;
 			sourceTree = "<group>";
@@ -3303,10 +3255,7 @@
 				E7CDE7DB19C2D3AE0079570C /* Icon-iPad-72@2x.png in Resources */,
 				E7735043128AD8BD0009CBEA /* dpad@2x.png in Resources */,
 				E7735044128AD8BD0009CBEA /* dpadpressed.png in Resources */,
-				E72BE6DE12911B5C009DC46A /* OptionViewController.xib in Resources */,
 				E7E877F91A24AFB300997085 /* Icon-iPhone-40@2x.png in Resources */,
-				E72BE6E012911B5C009DC46A /* TextViewController.xib in Resources */,
-				E72BE6E212911B5C009DC46A /* WebViewController.xib in Resources */,
 				E72BE72C12911E2B009DC46A /* bar-portrait-iphone.png in Resources */,
 				E72BE72D12911E2B009DC46A /* bar-portrait-iphone@2x.png in Resources */,
 				E72BE72E12911E2B009DC46A /* bar.png in Resources */,
@@ -3403,6 +3352,7 @@
 				E7D78AC9129E98480020D4A7 /* firepressed.png in Resources */,
 				E75276ED12A0A77E00278BA1 /* modekeyoff.png in Resources */,
 				E75276EE12A0A77E00278BA1 /* modekeyoff@2x.png in Resources */,
+				E7685A8A1BB76C8200FAC866 /* Settings.bundle in Resources */,
 				E75276EF12A0A77E00278BA1 /* modekeyoff~ipad.png in Resources */,
 				E75276F012A0A77E00278BA1 /* modekeyon.png in Resources */,
 				E75276F112A0A77E00278BA1 /* modekeyon@2x.png in Resources */,
@@ -3449,9 +3399,6 @@
 				E7BE12E2128BF31A0046990B /* dpad.png in Resources */,
 				E7BE12E3128BF31A0046990B /* dpad@2x.png in Resources */,
 				E7BE12E4128BF31A0046990B /* dpadpressed.png in Resources */,
-				E72BE6EA12911B5C009DC46A /* OptionViewController.xib in Resources */,
-				E72BE6EC12911B5C009DC46A /* TextViewController.xib in Resources */,
-				E72BE6EE12911B5C009DC46A /* WebViewController.xib in Resources */,
 				E72BE74212911E2B009DC46A /* bar-portrait-iphone.png in Resources */,
 				E7E877E81A24AFB300997085 /* Icon-iPad-29.png in Resources */,
 				E7CDE7E019C2D3AE0079570C /* Icon-iPad-76@2x.png in Resources */,
@@ -3467,6 +3414,7 @@
 				E72BE74D12911E2B009DC46A /* leftmouse.png in Resources */,
 				E7CDE7DA19C2D3AE0079570C /* Icon-iPad-72.png in Resources */,
 				E72BE74E12911E2B009DC46A /* leftmouse@2x.png in Resources */,
+				E7685A8B1BB76C8200FAC866 /* Settings.bundle in Resources */,
 				E72BE74F12911E2B009DC46A /* longbutton.png in Resources */,
 				E72BE75012911E2B009DC46A /* modesel.png in Resources */,
 				E72BE75112911E2B009DC46A /* rightmouse.png in Resources */,
@@ -3618,7 +3566,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/bash\nbuildNumber=`TZ=Asia/Chongqing date +%Y%m%d`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+			shellScript = "#!/bin/bash\nbuildNumber=`TZ=Asia/Chongqing date +%Y%m%d.%H%M`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -3638,23 +3586,16 @@
 				E775412112403C3C009EC11A /* KeyLockIndicator.m in Sources */,
 				E7996FAD1241C0A800502015 /* TipView.m in Sources */,
 				E79970261241FE4A00502015 /* CommandListView.m in Sources */,
-				E799702B12421D9F00502015 /* ModalViewController.m in Sources */,
 				E799706412422D6800502015 /* FloatingView.m in Sources */,
 				E70EA4121242F83200528C9D /* SliderView.m in Sources */,
 				E7A94CDD127D68B7006509E1 /* GamePadView.m in Sources */,
-				E723F0C61286A1680009E3DA /* VKView.m in Sources */,
 				E73A2120128EC1F5001FA168 /* AlertPrompt.m in Sources */,
 				E72BE69612911096009DC46A /* DosPadViewController_iPhone.m in Sources */,
 				E72BE6D812911B5C009DC46A /* AppDelegate.m in Sources */,
-				E7DAFAC219C02E9400CCA934 /* UINavigationController-AutoRotate.m in Sources */,
 				E72BE6D912911B5C009DC46A /* DosEmuThread.m in Sources */,
 				E72BE6DA12911B5C009DC46A /* FileSystemObject.m in Sources */,
 				E72BE6DB12911B5C009DC46A /* KeyboardView.m in Sources */,
 				E72BE6DC12911B5C009DC46A /* KeyView.m in Sources */,
-				E72BE6DD12911B5C009DC46A /* OptionViewController.m in Sources */,
-				E72BE6DF12911B5C009DC46A /* TextViewController.m in Sources */,
-				E7E878091A24BDEC00997085 /* ConfigFileListController.m in Sources */,
-				E72BE6E112911B5C009DC46A /* WebViewController.m in Sources */,
 				E72BE6E312911B5C009DC46A /* ZipArchive.m in Sources */,
 				E750BE4919B9E909001D5681 /* ColorTheme.m in Sources */,
 				E715B35C1293B7750098D437 /* DOSPadBaseViewController.m in Sources */,
@@ -3662,7 +3603,6 @@
 				E76C49391299490300901B69 /* FloatPanel.m in Sources */,
 				E7D78AE6129E9E420020D4A7 /* GIFAnimation.m in Sources */,
 				E794F3FF12DB4F0E00427836 /* PianoKeyboard.m in Sources */,
-				E7E878051A24BDAE00997085 /* ConfigsViewController.m in Sources */,
 				E74BB2B615C93DBC005EC552 /* DosPadUIApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3814,11 +3754,9 @@
 				E714BC5919C1EA3B009CF594 /* UIExtendedTextField.m in Sources */,
 				E7BE12F9128BF31A0046990B /* TipView.m in Sources */,
 				E7BE12FA128BF31A0046990B /* CommandListView.m in Sources */,
-				E7BE12FB128BF31A0046990B /* ModalViewController.m in Sources */,
 				E7BE12FC128BF31A0046990B /* FloatingView.m in Sources */,
 				E7BE12FD128BF31A0046990B /* SliderView.m in Sources */,
 				E7BE12FF128BF31A0046990B /* GamePadView.m in Sources */,
-				E7BE1301128BF31A0046990B /* VKView.m in Sources */,
 				E7EF4372128FCE470014D060 /* AlertPrompt.m in Sources */,
 				E72BE69712911096009DC46A /* DosPadViewController_iPhone.m in Sources */,
 				E72BE6E412911B5C009DC46A /* AppDelegate.m in Sources */,
@@ -3826,18 +3764,12 @@
 				E72BE6E612911B5C009DC46A /* FileSystemObject.m in Sources */,
 				E72BE6E712911B5C009DC46A /* KeyboardView.m in Sources */,
 				E72BE6E812911B5C009DC46A /* KeyView.m in Sources */,
-				E72BE6E912911B5C009DC46A /* OptionViewController.m in Sources */,
-				E72BE6EB12911B5C009DC46A /* TextViewController.m in Sources */,
-				E7E8780A1A24BDEC00997085 /* ConfigFileListController.m in Sources */,
 				E714BC5A19C1EA5F009CF594 /* PianoKeyboard.m in Sources */,
-				E72BE6ED12911B5C009DC46A /* WebViewController.m in Sources */,
 				E72BE6EF12911B5C009DC46A /* ZipArchive.m in Sources */,
 				E715B35B1293B7750098D437 /* DOSPadBaseViewController.m in Sources */,
 				E7E877D71A247AC500997085 /* ConfigManager.m in Sources */,
 				E76C49381299490200901B69 /* FloatPanel.m in Sources */,
 				E7D78AE5129E9E420020D4A7 /* GIFAnimation.m in Sources */,
-				E793720512A243C6008A2012 /* SplashViewController.m in Sources */,
-				E7E878061A24BDAE00997085 /* ConfigsViewController.m in Sources */,
 				E74BB2B715C93DBC005EC552 /* DosPadUIApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4067,6 +3999,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -4104,6 +4037,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
@@ -4175,6 +4109,189 @@
 			};
 			name = Release;
 		};
+		E75C2A221BDF26C400CCC770 /* AppStoreBeta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = AppStoreBeta;
+		};
+		E75C2A231BDF26C400CCC770 /* AppStoreBeta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = IPHONEOS;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = SDLiPhoneOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				ZERO_LINK = NO;
+			};
+			name = AppStoreBeta;
+		};
+		E75C2A241BDF26C400CCC770 /* AppStoreBeta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Generate Header Files";
+				ZERO_LINK = NO;
+			};
+			name = AppStoreBeta;
+		};
+		E75C2A251BDF26C400CCC770 /* AppStoreBeta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = SDL_net;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "./include/**";
+				ZERO_LINK = NO;
+			};
+			name = AppStoreBeta;
+		};
+		E75C2A261BDF26C400CCC770 /* AppStoreBeta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				GCC_PREPROCESSOR_DEFINITIONS = IPHONEOS;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "dospad-Info.plist";
+				INSTALL_PATH = /Applications;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = dospad;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				VALID_ARCHS = "armv7s armv7 arm64";
+				ZERO_LINK = NO;
+			};
+			name = AppStoreBeta;
+		};
+		E75C2A271BDF26C400CCC770 /* AppStoreBeta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = IPHONEOS;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = ./include;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = dosbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				ZERO_LINK = NO;
+			};
+			name = AppStoreBeta;
+		};
+		E75C2A281BDF26C400CCC770 /* AppStoreBeta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = minizip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				ZERO_LINK = NO;
+			};
+			name = AppStoreBeta;
+		};
+		E75C2A291BDF26C400CCC770 /* AppStoreBeta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chaoji Li (4C8YZND49H)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					IDOS,
+					IPHONEOS,
+					APPSTORE,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "iDOS-Beta-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = iDOS;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "cfee2b53-ffaf-444c-bc07-b77b4eadae0e";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				ZERO_LINK = NO;
+			};
+			name = AppStoreBeta;
+		};
 		E778B2B3123918F7008AF49A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4214,11 +4331,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -4230,7 +4346,7 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = ./include;
-				INFOPLIST_FILE = "iDOS-Info.plist";
+				INFOPLIST_FILE = "iDOS-Beta-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -4247,6 +4363,7 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
@@ -4256,12 +4373,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
@@ -4270,7 +4386,7 @@
 					IPHONEOS,
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "iDOS-Info.plist";
+				INFOPLIST_FILE = "iDOS-Beta-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -4367,6 +4483,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
@@ -4438,12 +4555,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chaoji Li (4C8YZND49H)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
@@ -4565,6 +4681,7 @@
 				00646540107E3D7500183915 /* Debug */,
 				00646541107E3D7500183915 /* Release */,
 				E7CDE7C219C2B3550079570C /* AppStore */,
+				E75C2A241BDF26C400CCC770 /* AppStoreBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4575,6 +4692,7 @@
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
 				E7CDE7C019C2B3550079570C /* AppStore */,
+				E75C2A221BDF26C400CCC770 /* AppStoreBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4585,6 +4703,7 @@
 				E71E60E311B5502800EC5A05 /* Debug */,
 				E71E60E411B5502800EC5A05 /* Release */,
 				E7CDE7C419C2B3550079570C /* AppStore */,
+				E75C2A261BDF26C400CCC770 /* AppStoreBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4595,6 +4714,7 @@
 				E71E60EC11B5506800EC5A05 /* Debug */,
 				E71E60ED11B5506800EC5A05 /* Release */,
 				E7CDE7C519C2B3550079570C /* AppStore */,
+				E75C2A271BDF26C400CCC770 /* AppStoreBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4605,6 +4725,7 @@
 				E778B2B3123918F7008AF49A /* Debug */,
 				E778B2B4123918F7008AF49A /* Release */,
 				E7CDE7C319C2B3550079570C /* AppStore */,
+				E75C2A251BDF26C400CCC770 /* AppStoreBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4615,6 +4736,7 @@
 				E7BE1314128BF31A0046990B /* Debug */,
 				E7BE1315128BF31A0046990B /* Release */,
 				E7CDE7C719C2B3550079570C /* AppStore */,
+				E75C2A291BDF26C400CCC770 /* AppStoreBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4625,6 +4747,7 @@
 				E7D6B89911BF323200D34665 /* Debug */,
 				E7D6B89A11BF323200D34665 /* Release */,
 				E7CDE7C619C2B3550079570C /* AppStore */,
+				E75C2A281BDF26C400CCC770 /* AppStoreBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4635,6 +4758,7 @@
 				FD6526640DE8FCCB002AD96B /* Debug */,
 				FD6526650DE8FCCB002AD96B /* Release */,
 				E7CDE7C119C2B3550079570C /* AppStore */,
+				E75C2A231BDF26C400CCC770 /* AppStoreBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

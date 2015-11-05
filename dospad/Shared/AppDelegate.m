@@ -28,17 +28,11 @@
 @synthesize cycles;
 @synthesize maxPercent;
 
-
-- (NSString*)getDecompressDirForFile:(NSString*)filePath
+/*
+ * Unzip file into directory `dir'.
+ */
+- (void)unzip:(NSString*)filepath toDir:(NSString*)dir
 {
-	return [[[FileSystemObject sharedObject] documentsDirectory]
-		stringByAppendingPathComponent:filePath.lastPathComponent.stringByDeletingPathExtension];
-}
-
-
-- (void)unzip:(NSString*)filepath
-{
-	NSString *dir = [self getDecompressDirForFile:filepath];
 	BOOL ret = NO;
 	ZipArchive *ar = [[ZipArchive alloc] init];
 	
@@ -52,12 +46,19 @@
 	[ar release];
 }
 
+
+/*
+ * Import a zip package and unzip its content under `Documents' folder.
+ * Warning: It will overwrite the contents of that folder.
+ */
 - (void)importFile:(NSURL*)url
 {
 	NSString *srcpath = [url path];
 	NSString *filename = [srcpath lastPathComponent];
 	if ([filename.pathExtension.lowercaseString isEqualToString:@"zip"]) {
-		[self unzip:srcpath];
+		[self unzip:srcpath
+			toDir:[[FileSystemObject sharedObject] documentsDirectory]
+		];
 	}
 }
 
@@ -132,9 +133,30 @@
 	[theme release];
 }
 
+- (void)registerDefaultSettings
+{
+	NSString *path = [[NSBundle mainBundle] bundlePath];
+	path = [path stringByAppendingPathComponent:@"Settings.bundle"];
+	path = [path stringByAppendingPathComponent:@"Root.plist"];
+	NSDictionary *settingsDict = [NSDictionary dictionaryWithContentsOfFile:path];
+	NSArray *prefs = settingsDict[@"PreferenceSpecifiers"];
+	NSMutableDictionary *defs = [NSMutableDictionary dictionary];
+	for (NSDictionary *item in prefs) {
+		NSString *key = item[@"Key"];
+		NSObject *obj = item[@"DefaultValue"];
+		if (key && obj) {
+			defs[key] = obj;
+		}
+	}
+	if (defs.count > 0) {
+		[[NSUserDefaults standardUserDefaults] registerDefaults:defs];
+	}
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
 {
-
+	[self registerDefaultSettings];
+	[ConfigManager init];
 	[self initColorTheme];
 
 	// Make sure we are allowed to play in lock screen
@@ -157,14 +179,16 @@
 	uiwindow.rootViewController = navController;
     [uiwindow makeKeyAndVisible];
 	[super applicationDidFinishLaunching:application];
+	
 #ifdef THREADED
-    [self performSelector:@selector(startDOS) withObject:nil afterDelay:0.5];
+	// FIXME: Launch emulation thread two seconds later to avoid crash
+    [self performSelector:@selector(startDOS) withObject:nil afterDelay:2];
 #endif
+
     return YES;
 }
 
 - (void)dealloc {
-    [splashController release];
     [navController release];
     [screenView release];
     [super dealloc];
